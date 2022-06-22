@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+    <span>m da xem trang ca nhan cua t {{accessCOunt}} lan</span>
+    {{#if chuaDangNhap}}
+        <form action="/register" method="post">
+            Tell me your name : <input type="text" name="txtName">
+            Password: <input type="password" name="txtPassword">
+            
+            <input type="submit" value="Ok, I agreed!">
+        </form>
+    {{/if}}
+    <p>
+        <a href="/profile">See my profile!</a>
+        <a href="/signup">Sign Up</a>
+    </p>
+</body>
+</html>
